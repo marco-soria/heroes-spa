@@ -21,7 +21,7 @@ export const HeroCard = ({
     /* console.log(heroImageUrl) */
 
   return (
-    <div className='col' >
+    <div className='col  animate__animated animated__fadeIn' >
         <div className='card'>
             <div className='row no-gutters'>
                 <div>
@@ -45,8 +45,8 @@ export const HeroCard = ({
                             <small className='text-muted'>{first_appearance}</small>
                         </p>
 
-                        <Link to={`./hero/${id}`}>
-                            Más...
+                        <Link to={`/hero/${id}`}>
+                            More...
                         </Link>
                     </div>
                 </div>
