@@ -17,7 +17,7 @@ export const HeroCard = ({
     characters,
 }) => {
     // const heroImageUrl = `../src/assets/heroes/${id}.jpg`
-    const heroImageUrl = `/assets/heroes/${id}.jpg`
+    const heroImageUrl = `/heroes/${id}.jpg`
     /* console.log(heroImageUrl) */
 
   return (
